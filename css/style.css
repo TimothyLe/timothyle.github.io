@@ -122,5 +122,5 @@ li {
 }
 
 .btn {
-  //webkit
+  -webkit-text-fill-color: rgb(100, 200, 0);
 }
