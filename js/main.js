@@ -13,3 +13,7 @@ function main(){
 }
 $(document).ready(main);
 */
+
+$('.btn').on('click', function(){
+  $(this).toggleClass('active');
+});
