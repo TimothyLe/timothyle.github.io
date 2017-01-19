@@ -124,3 +124,11 @@ li {
 .btn {
   -webkit-text-fill-color: rgb(100, 200, 0);
 }
+
+.btn hover {
+  -webkit-text-fill-color: rgb(100, 200, 0);
+}
+
+.btn active {
+  -webkit-text-fill-color: rgb(100, 200, 0);
+}
