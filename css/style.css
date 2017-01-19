@@ -17,6 +17,7 @@ body {
 
 .top {
   background-image: url("http://i1.wp.com/niklasgoeke.com/wp-content/uploads/2015/07/late-night-screen.jpg");
+  background-size: cover;
   height:400px;
   background-position: left center;
 }
@@ -61,6 +62,7 @@ p {
   margin-left: auto;
   width: 100px;
   height: 100px;
+  display: inline-block;
 }
 
 .hotel {
@@ -108,7 +110,7 @@ p {
 .hax{
   background-image: url("http://www.jcportuese.com/wp-content/uploads/2013/09/8854-228.5838StitchA-980x560.jpg");
   height: 400px;
-  
+  background-size: cover;
 }
 
 ul {
