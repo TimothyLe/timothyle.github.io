@@ -121,14 +121,15 @@ li {
   list-style: none;
 }
 
-.btn {
-  -webkit-text-fill-color: rgb(100, 200, 0);
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 15px 45px;
+  font-size: 48px;
+  font-family: "Georgia", serif;
+  border-radius: 0;
 }
 
-.btn hover {
-  -webkit-text-fill-color: rgb(100, 200, 0);
-}
-
-.btn active {
-  -webkit-text-fill-color: rgb(100, 200, 0);
+button:focus {
+  outline: none;
 }
