@@ -3,208 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--RESPONSIVE TAG-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Thinh P Le</title>
+	<title>My Website!</title>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="jquery-3.1.1.min.js"></script>
 </head>
 <body>
 
-<div class="container-fluid">
-	<h1>Welcome to Tim's Website</h1>
-	<div class="row">
-	<!--Columns add up to 12-->
-		<div class="col-md-5" style="background-color: #FF9999">Left</div>
-		<div class="col-md-5" style="background-color: #99CCFF">Middle</div>
-		<div class="col-md-2" style="background-color: #00CC99">Right</div>
-	</div>
-	<!--Navbar begin-->
-	<nav class="navbar navbar-default navbar-static-top">
-		<div class="container-fluid">
-			<!--Logo-->
-			<div class="navbar-header">
-				<a href="#" class="navbar-brand">Thinh P. Le</a>
-			</div>
-			<!--Menu Items-->
-			<div>
-				<ul class="nav nav-pills">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-					<!--Dropdown Menu-->
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-					aria-haspopup="true" aria-expanded="false">Rain Drop<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Contact</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Contact</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Contact</a></li>
-						
-					</ul>
-					</li>
-				</ul>
-				<!--Searchbar-->
-				<form class="navbar-form navbar-left">
-				        <div class="form-group">
-				          <input type="text" class="form-control" placeholder="Type text here...">
-				        </div>
-				        <button type="submit" class="btn btn-default">Submit</button>
-				      </form>
-			</div>
-		</div>
-	</nav>
-	<!--Navbar end-->
-	<p>I like <mark>macaroni</mark></p>
-
-	<blockquote>
-		Go confidently in the direction of your dreams! Live the life you've imagined. As you simplify your life, the laws of the universe will be simpler.
-		<footer>Henry David Thoreau</footer>
-	</blockquote>
-	<!--List-->
-	<dl>
-		<dt>Hackathons attended</dt>
-		<dd>AT&T Hackathon (2015)</dd>
-		<dd>SJSU Gamestop Hackathon (2015)</dd>
-		<dd>Sparta Hacks (2016)</dd>
-		<dt>Scholarships</dt>
-		<dd>Middle Class Scholarship (2015,2016)</dd>
-		<dd>A.S. First Generation (2016) </dd>
-		<dd>VSA Summit Full-Ride (2016)</dd>
-	</dl>
-	<!--List End-->
-	<!--Code Syntax-->
-	<p>To add pre-existing code to GitHub using the Git Bash, find the directory
-	it exists in and select <code>git bash here</code></p>
-	<p>Perform these steps:</p>
-	<pre>
-		$ git cd /filepath
-		$ git init
-		$ git add.
-		$ git commit -m "Your text here"
-		$ git remote origin github.website.com
-		$ git remote -v
-		$ git push origin master
-	</pre>
-
-	For HTTPrequests, perform <kbd>GET</kbd>,<kbd>PUT</kbd>,<kbd>POST</kbd>, 
-	and <kbd>DELETE</kbd>.
-	<!--Code Syntax End-->
-	<!--Next big Github-->
-	<h4>Text here</h4>
-	<p class="text-muted">Text here</p>
-	<p class="text-success bg-success">Text here</p>
-	<p class="text-danger bg-danger">Text here</p>
-	<!--Next big Github End-->
-	<!--Tables-->
-	<h2>Generic Table</h2>
-	<table class="table">
-		<thead>
-			<tr>
-				<th>Type</th>
-				<th>Name</th>
-				<th>Year(s)</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>Scholarship</th>
-				<th>Middle Class Scholarship</th>
-				<th>2015,2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>A.S. First Generation</th>
-				<th>2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>VSA Summit Full-Ride</th>
-				<th>2016</th>
-			</tr>
-		</tbody>
-	</table>
-
-	<h2>Condensed Table</h2>
-	<table class="table table-condensed">
-		<thead>
-			<tr>
-				<th>Type</th>
-				<th>Name</th>
-				<th>Year(s)</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>Scholarship</th>
-				<th>Middle Class Scholarship</th>
-				<th>2015,2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>A.S. First Generation</th>
-				<th>2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>VSA Summit Full-Ride</th>
-				<th>2016</th>
-			</tr>
-		</tbody>
-	</table>
-
-	<h2>Striped Table</h2>
-	<table class="table table-striped">
-		<thead>
-			<tr>
-				<th>Type</th>
-				<th>Name</th>
-				<th>Year(s)</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>Scholarship</th>
-				<th>Middle Class Scholarship</th>
-				<th>2015,2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>A.S. First Generation</th>
-				<th>2016</th>
-			</tr>
-			<tr>
-				<th>Scholarship</th>
-				<th>VSA Summit Full-Ride</th>
-				<th>2016</th>
-			</tr>
-		</tbody>
-	</table>
-	<!--Tables End-->
-	<!--Images and Video-->
-	<img src="images/fantastic_tim.jpg" class="img-rounded img-responsive">
-	<p>An image of me from my high school</p>
-	<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/nLEOwgm7OUQ"></iframe>
-	</div>
-	<p>Some music for the soul ♥</p>
-	<!--Images and Video End-->
-
-	
-</div>
-<!--SAVE FOR LATER-->
-<!--
 <div class="top">
 	<h1>
 	Thinh Le AKA Timothy
@@ -221,7 +26,7 @@
 <h1>About Me</h1>
 
 <div class="imager">
-	<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZYAAAAJDlkN2RkZWNlLTE5MDItNDUyOS1hMDk0LWM3NjhiNGY4MThlZQ.jpg" alt="A photo of me">
+	<img src="/images/fantastic_tim.jpg" alt="A photo of me">
 </div>
 
 
@@ -272,16 +77,15 @@
 <h1>Some Links</h1>
 
 <a href="https://github.com/TimothyLe" target="_blank">
-	<img src="http://image.flaticon.com/icons/svg/25/25231.svg" alt="Github" style="width:64px;height:64px;">
+	<img src="/images/github.png" alt="Timothy's Github" style="width:64px;height:64px;">
 </a> 
 <a href="https://www.linkedin.com/in/thinh-le-33b196107" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width:64px;height:64px;">
+<img src="/images/linkedin.png" alt="Timothy's LinkedIn" style="width:64px;height:64px;">
 </a> 
 <a href="https://www.hackerrank.com/timothyle85" target="_blank">
-	<img src="https://brandfolder.com/hackerrank/logo/hackerrank-primary-logo.png" alt="hacker rank" style="width:64px;height:64px;">
+	<img src="/images/hackerrank.png" alt="Timothy's HackerRank" style="width:64px;height:64px;">
 </a>
--->
-<!--END SAVE-->
+
 
 </body>
 </html>
