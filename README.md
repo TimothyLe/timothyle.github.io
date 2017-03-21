@@ -13,10 +13,10 @@ Digital images found on Google Images. All rights reserved
 * Also need to customize the original jekyll-sass website:  
 [Tim's Static Website](http://tim-project.netlify.com/)   
 
-* New Bootstrap index.html
-&nbsp;&nbsp;&nbsp; * Now the bootstrap page will be the front page
-&nbsp;&nbsp;&nbsp; * Need to update the UI and content 
-&nbsp;&nbsp;&nbsp; * Original website under *draft1* branch
+* New Bootstrap index.html   
+&nbsp;&nbsp;&nbsp; * Now the bootstrap page will be the front page  
+&nbsp;&nbsp;&nbsp; * Need to update the UI and content   
+&nbsp;&nbsp;&nbsp; * Original website under *draft1* branch  
 
 **2/27/17**  
 I have recently taken on the framework 'Bootstrap' and have some experimentation occurring with it.  
