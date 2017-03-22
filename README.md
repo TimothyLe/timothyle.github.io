@@ -25,10 +25,11 @@ You can find my work from Bootstrap here:
 
 The jQuery javascript library has also been a work of interest for me and I plan on implementing in animations for buttons, jumbotron, navbar, and more. I will follow up this readme with further updates.  
 
+## Timothy's Wiki
+If you have any further questions, such as how to deploy PHP apps and such, then feel free to scroll through my personal wiki I have written to deliver the information you need:  
+  
+https://github.com/TimothyLe/timothyle.github.io/wiki  
+
 ## Visit
 Feel free to stop by my website and take a look:  
-• [Timothy Le website](https://timothyle.github.io/)  
-
-## Additional Information
- Please head to the Wiki located along the tabs for more information on how my website works and some tutorials
- 
+• [Timothy Le website](https://timothyle.github.io/) 
