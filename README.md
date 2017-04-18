@@ -1,6 +1,6 @@
 # Tim's Portfolio Website
 
-![https://camo.githubusercontent.com/32579553630b6bbd9cc7c459c57b8c10ef065bdc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6a732e6f72672d646e732d6666623430302e7376673f7374796c653d666c61742d737175617265](https://timothyle.js.org/)
+![https://github.com/TimothyLe/timothyle.github.io/blob/master/images/js_org.svg](https://timothyle.js.org/)
 
 My customized, personal website implementing HTML, CSS, and JS.   
 Code was edited using Sublime Text 3 and images were used from Google   
