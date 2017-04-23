@@ -1,14 +1,16 @@
 # Tim's Portfolio Website
 
-![https://github.com/TimothyLe/timothyle.github.io/blob/gh-pages/images/js_org.svg](https://timothyle.js.org/)
-
 My customized, personal website implementing HTML, CSS, and JS.   
 Code was edited using Sublime Text 3 and images were used from Google   
 
 Digital images found on Google Images. All rights reserved  
 
 ## Updates
-**3/21/17**  
+**4/23/17**
+* Need to delete unnecessary information
+* Update UI/UX and provide proper portfolio
+
+**3/21/17**  (Discontinued)
 * Looking to create a second website for uploading projects and applications:  
 [Deploying a JS domain](https://dns.js.org/)    
 
