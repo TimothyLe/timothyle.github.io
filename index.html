@@ -40,7 +40,7 @@
 	<br><br>
 	<!--Header-->
 	<div class="container container-fluid">
-		<h1 align="middle">Welcome to my Portfolio!</h1>
+		<strong><h1 align="middle">Welcome to my Portfolio!</h1></strong>
 		<br>
 		<blockquote>
 			Go confidently in the direction of your dreams! Live the life you've imagined. As you simplify your life, the laws of the universe will be simpler.
@@ -48,34 +48,93 @@
 		</blockquote>
 		<br><br>
 		<div class="row">
-			<div class="col-md-6">
-				<img src="assets/img/prof1.jpg" alt="Tim Profile Picture" class="picture">
-			</div>
-			<div class="col-md-6 col-md-offset-6">
-				<h2>Greetings,</h2>
+			<div class="span4">
+			<div class="clearfix content-heading">
+					<img src="assets/img/prof1.jpg" alt="Tim Profile Picture" class="picture" style="float: right; margin: 0 0 10px 10px">
+					<h2>Hi there, my name is Thinh (or Tim ☺)</h2>
 				<p>
-					If you are reading this, then that means you found my website! Congratulations, you can browse information about me or the work I have done in the past. If you would like to get in touch with me, feel free to shoot me an email at <i>thinh.le@sjsu.edu</i> or inbox me at the other platforms I am available on (<strong>scroll to the bottom!</strong>).
+					If you are reading this, then that means you found my website! Congratulations, you can browse information about me or the work I have done in the past. If you would like to get in touch with me, feel free to shoot me an email at <i><a href="mailto:thinh.le@sjsu.edu">thinh.le@sjsu.edu</a></i> or inbox me at the other platforms I am available on <a href=#bottom class="scrollto">scroll to the bottom!</a>
 				</p>
+			</div>
 			</div>
 		</div>
 		<br><br>
 		<!--Projects-->
 		<h1 align="middle">Projects</h1>
 		<div class="row">
-			<div class="col-md-6">
-				<a href="la-bella/index.html" style="margin-left: 50px;">
-					<img src="assets/img/la-bella.png" alt="La Bella Salon Website" height="250px" width="250px">
+			<!--1-->
+			<div class="span4">
+			<div class="clearfix content-heading">
+				<a href="la-bella/index.html">
+					<img src="assets/img/la-bella.png" alt="La Bella Salon Website" class="picture pull-left">
 				</a>
-			</div>
-			<div class="col-md-offset-6">
-				<i><h2>July, 2017</h2></i>
+				<div class="">
+					<i><h2>July, 2017</h2></i>
 				<p>
 					A website for clients of the La Bella Salon to view and be informed as well as register an account to book appointments that will directly send emails to the official La Bella Salon email via PHP script organized into a relational database (MySQL). <br>
 					<strong>Languages:</strong> <i>HTML, CSS, Javascript, PHP, MySQL</i><br>
 					<strong>Frameworks:</strong> <i>Bootstrap, jQuery</i><br>
 					<strong>API:</strong> <i>Facebook SDK, Google SDK, Yelp</i><br>
 				</p>
+				</div>
 			</div>
+			</div>
+			<br><br>
+			<!--2-->
+			<div class="span4">
+			<div class="clearfix content-heading">
+				<a href="live-feed-test/index.html">
+					<img src="https://github.com/TimothyLe/tbp-spring17/blob/master/images/tbp.gif" alt="Live Feed Test" class="picture pull-left">
+				</a>
+				<div class="">
+									<i><h2>March, 2017</h2></i>
+				<p>
+					A web app in development intended to simplify the task of performing a CORS(Cross-Origin-Remote-Source) request amd acquiring client IDs, client secrets, and access tokens all through a user-friendly interface. The goal is to finish the app and submit it to become a Google Chrome extension.<br>
+					<strong>Languages:</strong> <i>HTML, CSS, Javascript</i><br>
+					<strong>Frameworks:</strong> <i>Bootstrap, jQuery</i><br>
+					<strong>API:</strong> <i>G-api, Instagram Auth, Facebook Auth</i> so far<br>
+				</p>
+				</div>
+			</div>
+			</div>
+			<br><br>
+			<!--3-->
+			<div class="span4">
+			<div class="clearfix content-heading">
+				<a href="http://tbpsjsu.org/">
+					<img src="https://github.com/TimothyLe/tbp-spring17/blob/master/images/gallery.JPG" alt="Tau Beta Pi California Eta" class="picture pull-left">
+				</a>
+				<div class="">
+									<i><h2>January, 2017</h2></i>
+				<p>
+					A website collaboration to present the Tau Beta Pi California Eta chapter on a uniquely designed website presenting information to new candidates, members, or those who are simply curious. A lot of important updates and features such as Register/Login and Lightbox coming soon!<br>
+					<strong>Languages:</strong> <i>HTML, CSS, Javascript, Ruby on Rails</i><br>
+					<strong>Frameworks:</strong> <i>Bootstrap, jQuery, FontAwesome</i><br>
+					<strong>API:</strong> <i>None</i><br>
+					<a href="https://github.com/TimothyLe/tbp-spring17" class="btn btn-primary">Visit the repo!</a><br>
+				</p>
+				</div>
+			</div>
+			</div>
+			<br><br>
+			<!--4-->
+			<div class="span4">
+			<div class="clearfix content-heading">
+				<a href="https://github.com/TimothyLe/SRE2017">
+					<img src="https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=Q90IlknFXnOialugAKiWm8gSzcs%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyHucJHee-GluVwee34clAwzefKgQjm0D5W_eY65eNkj2p6zd424ZxUBbFImi24" alt="Spartan Racing Electric" class="picture pull-left">
+				</a>
+				<div class="">
+									<i><h2>September, 2016</h2></i>
+				<p>
+					A fully-electric vehicle equipped with brake pedal sensors, throttle calibration, regen calibration, temperature sensors, and more. This begs the question, where can we store and read this information, especially on hardware like the VCU(Vehicle Control Unit, we use the HY-TTC 50)? The solution is EEPROM, a electrical programmable and erasable memory database. The quality of non-volatile memory means that the data stays in the system even after a reset. The code I write for EEPROM involves a lot of read/write functions, parsing of information, and creating "objects" in a non-OOP environment.<br>
+					<strong>Languages:</strong> <i>C</i><br>
+					<strong>CLI:</strong> <i>Makefiles</i><br>
+					<strong>Tools:</strong> <i>TTC Downloader, Realterm(for serial, but we use CAN), Sublime Text 3, PCAN-View, PCAN drivers, Tasking v3 Toolset</i><br>
+				</p>
+				</div>
+			</div>
+			</div>
+			<br><br>
 		</div>
 		<!--Projects End-->
 		<br><br>
@@ -142,6 +201,7 @@
 	<!--Footer-->
 	<div class="row">
 		<div class="col-md-12 text-center"><p><a href=#top class="btn btn-primary jumbofont scrollto">Back to the top</a></p></div><br><br>
+		<p id="bottom">
 		<div class="wrap">
 			<div class="text-center center-block">
 				<a href="https://www.github.com/timothyle"><img src="assets/img/github.png" height="50px" width="50px" alt="github" class="social"></a>
@@ -151,6 +211,7 @@
 				<a href="mailto:thinh.le@sjsu.edu"><img src="assets/img/email.png" height="50px" width="50px" alt="email" class="social"></a>
 			</div>
 		</div>
+		</p>
 	</div>
 	<!--Footer-->
 

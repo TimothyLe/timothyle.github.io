@@ -1,3 +1,6 @@
 [submodule "la-bella"]
 	path = la-bella
 	url = https://github.com/TimothyLe/la-bella
+[submodule "live-feed-test"]
+	path = live-feed-test
+	url = https://github.com/TimothyLe/live-feed-test
