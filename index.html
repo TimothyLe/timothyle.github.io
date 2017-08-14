@@ -4,30 +4,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	
 	<!--RESPONSIVE TAG-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Thinh Le</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<title>Thinh Le</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!--Font Awesome-->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-	<!--jQuery Google CDN -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 	<!--Favicon-->
 	<link rel="icon" href="http://timothyle.github.io/favicon.ico?v=2" />
+
 </head>
 <body itemscope itemtype="http://schema.org/WebApplication">
 	<!--Jumbotron-fluid-->
@@ -409,52 +399,8 @@
 		}
 	</style>
 
-
 	<!--JS-->
-	<script type="text/javascript">
-			//!< ScrollTo function
-			$('.scrollto').click(function() {
-				var elementClicked = $(this).attr("href");
-				var destination = $(elementClicked).offset().top;
-				$("#main:not(:animated)").animate({ scrollTop: destination} );
-				return false;
-			});
-
-			//!< Jumbotron Scroll
-			var jumboHeight = $('.jumbotron').outerHeight();
-			function parallax(){
-				var scrolled = $(window).scrollTop();
-				$('.jumbotron').css('height', (jumboHeight-scrolled) + 'px');
-				$('.parallax1').css('height', (jumboHeight-scrolled) + 'px');
-			}
-
-			$(window).scroll(function(e){
-				parallax();
-			});
-
-			//Target Blank replacement
-			$(function() { 
-				$('a[href^=http]').click( function() {  
-					window.open(this.href);
-					return false;
-				});
-			});
-
-			//!< Facebook SDK
-			window.fbAsyncInit = function() {
-				FB.init({
-					appId      : '482723745132387',
-					xfbml      : true,
-					version    : 'v2.7'
-				});
-			};
-			(function(d, s, id){
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) {return;}
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/en_US/sdk.js";
-				fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-		</script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</body>
 	</html>
